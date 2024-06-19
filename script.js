@@ -10,6 +10,6 @@ function ClickNo()
   var a = document.getElementById("YesButton");
   var b = document.getElementById("NoButton");
   b.parentNode.parentNode.removeChild(b.parentNode);
-  a.parentNode.style.width = '200px'
-  a.parentNode.style.height = '100px'
+  a.style.width = '200px'
+  a.style.height = '100px'
 }
