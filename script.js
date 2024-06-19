@@ -8,8 +8,5 @@ setInterval(move, 50);
 function ClickNo()
 {
   var b = document.getElementById("NoButton");
-  var i = Math.floor(Math.random()*500)+1;
-  var j = Math.floor(Math.random()*500)+1;
-  b.style.left = i+"px";
-  b.style.top = j+"px";
+  b.parentNode.removeChild(b);
 }
