@@ -8,5 +8,5 @@ setInterval(move, 50);
 function ClickNo()
 {
   var b = document.getElementById("NoButton");
-  b.parentNode.removeChild(b);
+  b.parentNode.parentNode.NoderemoveChild(b.parentNode);
 }
