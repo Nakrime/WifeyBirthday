@@ -13,3 +13,8 @@ function ClickNo()
   a.style.width = '200px'
   a.style.height = '100px'
 }
+
+function ClickYes() {
+        var audio = document.getElementById("audio");
+        audio.play();
+}
